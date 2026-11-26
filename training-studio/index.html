@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-bar">
+      <a href="#top" class="brand">TRAINING <span>STUDIO</span></a>
+
+      <input type="checkbox" id="nav-check" class="nav-check">
+      <label for="nav-check" class="nav-btn" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#top" class="active">HOME</a></li>
+          <li><a href="#programs">ABOUT</a></li>
+          <li><a href="#classes">CLASSES</a></li>
+          <li><a href="#schedule">SCHEDULES</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#contact" class="signup-btn">SIGN UP</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="overlay"></div>
+    <div class="container hero-box">
+      <h6>WORK HARDER, GET STRONGER</h6>
+      <h1>EASY WITH OUR <span>GYM</span></h1>
+      <a href="#programs" class="btn">BECOME A MEMBER</a>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section class="section" id="programs">
+    <div class="container">
+      <div class="heading">
+        <h2>CHOOSE <span>PROGRAM</span></h2>
+        <div class="waves">
+          <svg width="45" height="15" viewBox="0 0 45 15" fill="none">
+            <path d="M1 4C5 1 9 7 13 4C17 1 21 7 25 4C29 1 33 7 37 4C40 2 42 4 44 4" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+            <path d="M1 8C5 5 9 11 13 8C17 5 21 11 25 8C29 5 33 11 37 8C40 6 42 8 44 8" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+            <path d="M1 12C5 9 9 15 13 12C17 9 21 15 25 12C29 9 33 15 37 12C40 10 42 12 44 12" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p>Training Studio is a gym and fitness layout with programs built around strength, conditioning, and daily consistency.</p>
+      </div>
+
+      <div class="program-list">
+        <div class="program-card">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+          </div>
+          <div>
+            <h4>Basic Fitness</h4>
+            <p>Full-body sessions focused on everyday stamina, posture, and getting into a regular workout habit.</p>
+            <a href="#classes" class="more-link">DISCOVER MORE</a>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+          </div>
+          <div>
+            <h4>Advanced Muscle Course</h4>
+            <p>Structured training blocks for experienced lifters working on progressive strength and muscle volume.</p>
+            <a href="#classes" class="more-link">DISCOVER MORE</a>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+          </div>
+          <div>
+            <h4>New Gym Training</h4>
+            <p>Guided orientation covering safe form, basic equipment setup, and starter routines.</p>
+            <a href="#classes" class="more-link">DISCOVER MORE</a>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+          </div>
+          <div>
+            <h4>Yoga Training</h4>
+            <p>Mobility, stretching, and controlled breathing to support recovery and flexibility.</p>
+            <a href="#classes" class="more-link">DISCOVER MORE</a>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+          </div>
+          <div>
+            <h4>Basic Muscle Course</h4>
+            <p>Core compound movements to build steady strength across major muscle groups.</p>
+            <a href="#classes" class="more-link">DISCOVER MORE</a>
+          </div>
+        </div>
+
+        <div class="program-card">
+          <div class="icon-box">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+          </div>
+          <div>
+            <h4>Body Building Course</h4>
+            <p>Targeted split workouts aimed at balanced conditioning, control, and physique goals.</p>
+            <a href="#classes" class="more-link">DISCOVER MORE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="cta-sec">
+    <div class="overlay"></div>
+    <div class="container cta-box">
+      <h2>DON'T <span>THINK</span>, BEGIN <span>TODAY</span>!</h2>
+      <p>Start training on a schedule that fits your routine and build strength step by step with our coaching team.</p>
+      <a href="#contact" class="btn">BECOME A MEMBER</a>
+    </div>
+  </section>
+
+  <!-- Our Classes -->
+  <section class="section" id="classes">
+    <div class="container">
+      <div class="heading">
+        <h2>OUR <span>CLASSES</span></h2>
+        <div class="waves">
+          <svg width="45" height="15" viewBox="0 0 45 15" fill="none">
+            <path d="M1 4C5 1 9 7 13 4C17 1 21 7 25 4C29 1 33 7 37 4C40 2 42 4 44 4" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+            <path d="M1 8C5 5 9 11 13 8C17 5 21 11 25 8C29 5 33 11 37 8C40 6 42 8 44 8" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+            <path d="M1 12C5 9 9 15 13 12C17 9 21 15 25 12C29 9 33 15 37 12C40 10 42 12 44 12" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p>Switch between training classes to see what each session covers.</p>
+      </div>
+
+      <div class="classes-wrap">
+        <input type="radio" name="class-radio" id="c1" class="c-radio" checked>
+        <input type="radio" name="class-radio" id="c2" class="c-radio">
+        <input type="radio" name="class-radio" id="c3" class="c-radio">
+        <input type="radio" name="class-radio" id="c4" class="c-radio">
+
+        <div class="class-tabs">
+          <label for="c1" class="class-tab t1">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+            <span>First Training Class</span>
+          </label>
+          <label for="c2" class="class-tab t2">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+            <span>Second Training Class</span>
+          </label>
+          <label for="c3" class="class-tab t3">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+            <span>Third Training Class</span>
+          </label>
+          <label for="c4" class="class-tab t4">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.57 14.86L22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>
+            <span>Fourth Training Class</span>
+          </label>
+          <a href="#schedule" class="all-btn">View All Schedules</a>
+        </div>
+
+        <div class="class-content">
+          <div class="class-box b1">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=80" alt="First Training Class">
+            <h3>First Training Class</h3>
+            <p>Barbell basics, lifting mechanics, and strength progressions designed to keep your form clean and steady.</p>
+            <a href="#schedule" class="btn">VIEW SCHEDULE</a>
+          </div>
+
+          <div class="class-box b2">
+            <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=80" alt="Second Training Class">
+            <h3>Second Training Class</h3>
+            <p>Conditioning circuits combining free weights and cardio intervals for endurance and work capacity.</p>
+            <a href="#schedule" class="btn">VIEW SCHEDULE</a>
+          </div>
+
+          <div class="class-box b3">
+            <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=900&q=80" alt="Third Training Class">
+            <h3>Third Training Class</h3>
+            <p>Targeted accessory lifts and core work focused on balance, stability, and muscle control.</p>
+            <a href="#schedule" class="btn">VIEW SCHEDULE</a>
+          </div>
+
+          <div class="class-box b4">
+            <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=80" alt="Fourth Training Class">
+            <h3>Fourth Training Class</h3>
+            <p>Mobility work, flexibility training, and recovery sessions to help your body stay loose between heavy days.</p>
+            <a href="#schedule" class="btn">VIEW SCHEDULE</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule -->
+  <section class="schedule-sec section" id="schedule">
+    <div class="overlay"></div>
+    <div class="container schedule-box">
+      <div class="heading white-text">
+        <h2>CLASSES <span>SCHEDULE</span></h2>
+        <div class="waves">
+          <svg width="45" height="15" viewBox="0 0 45 15" fill="none">
+            <path d="M1 4C5 1 9 7 13 4C17 1 21 7 25 4C29 1 33 7 37 4C40 2 42 4 44 4" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+            <path d="M1 8C5 5 9 11 13 8C17 5 21 11 25 8C29 5 33 11 37 8C40 6 42 8 44 8" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+            <path d="M1 12C5 9 9 15 13 12C17 9 21 15 25 12C29 9 33 15 37 12C40 10 42 12 44 12" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p>Pick a day of the week to check class times and trainers.</p>
+      </div>
+
+      <input type="radio" name="day-radio" id="mon" class="d-radio" checked>
+      <input type="radio" name="day-radio" id="tue" class="d-radio">
+      <input type="radio" name="day-radio" id="wed" class="d-radio">
+      <input type="radio" name="day-radio" id="thu" class="d-radio">
+      <input type="radio" name="day-radio" id="fri" class="d-radio">
+
+      <div class="days-bar">
+        <label for="mon" class="day-btn d-mon">Monday</label>
+        <span>/</span>
+        <label for="tue" class="day-btn d-tue">Tuesday</label>
+        <span>/</span>
+        <label for="wed" class="day-btn d-wed">Wednesday</label>
+        <span>/</span>
+        <label for="thu" class="day-btn d-thu">Thursday</label>
+        <span>/</span>
+        <label for="fri" class="day-btn d-fri">Friday</label>
+      </div>
+
+      <div class="table-wrap">
+        <table class="sched-table">
+          <tbody>
+            <tr>
+              <td>Fitness Class</td>
+              <td><span class="time m">10:00AM - 11:30AM</span></td>
+              <td><span class="time tu">2:00PM - 3:30PM</span></td>
+              <td>William G. Stewart</td>
+            </tr>
+            <tr>
+              <td>Muscle Training</td>
+              <td><span class="time f">10:00AM - 11:30AM</span></td>
+              <td><span class="time th">2:00PM - 3:30PM</span></td>
+              <td>Paul D. Newman</td>
+            </tr>
+            <tr>
+              <td>Body Building</td>
+              <td><span class="time tu">10:00AM - 11:30AM</span></td>
+              <td><span class="time m">2:00PM - 3:30PM</span></td>
+              <td>Boyd C. Harris</td>
+            </tr>
+            <tr>
+              <td>Yoga Training Class</td>
+              <td><span class="time w">10:00AM - 11:30AM</span></td>
+              <td><span class="time f">2:00PM - 3:30PM</span></td>
+              <td>Hector T. Daigle</td>
+            </tr>
+            <tr>
+              <td>Advanced Training</td>
+              <td><span class="time th">10:00AM - 11:30AM</span></td>
+              <td><span class="time w">2:00PM - 3:30PM</span></td>
+              <td>Bret D. Bowers</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trainers -->
+  <section class="section" id="trainers">
+    <div class="container">
+      <div class="heading">
+        <h2>EXPERT <span>TRAINERS</span></h2>
+        <div class="waves">
+          <svg width="45" height="15" viewBox="0 0 45 15" fill="none">
+            <path d="M1 4C5 1 9 7 13 4C17 1 21 7 25 4C29 1 33 7 37 4C40 2 42 4 44 4" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+            <path d="M1 8C5 5 9 11 13 8C17 5 21 11 25 8C29 5 33 11 37 8C40 6 42 8 44 8" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+            <path d="M1 12C5 9 9 15 13 12C17 9 21 15 25 12C29 9 33 15 37 12C40 10 42 12 44 12" stroke="#ed563b" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <p>Coaches available on the floor to help with technique and training plans.</p>
+      </div>
+
+      <div class="trainer-grid">
+        <div class="trainer-card">
+          <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=700&q=80" alt="Bret D. Bowers">
+          <span class="role">Strength Trainer</span>
+          <h4>Bret D. Bowers</h4>
+          <p>Works with lifters on strength fundamentals, barbell control, and steady weekly progression.</p>
+          <ul class="socials">
+            <li><a href="#">f</a></li>
+            <li><a href="#">t</a></li>
+            <li><a href="#">in</a></li>
+            <li><a href="#">Bē</a></li>
+          </ul>
+        </div>
+
+        <div class="trainer-card">
+          <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80" alt="Hector T. Daigle">
+          <span class="role">Muscle Trainer</span>
+          <h4>Hector T. Daigle</h4>
+          <p>Focuses on controlled reps, hypertrophy routines, and consistent training habits.</p>
+          <ul class="socials">
+            <li><a href="#">f</a></li>
+            <li><a href="#">t</a></li>
+            <li><a href="#">in</a></li>
+            <li><a href="#">Bē</a></li>
+          </ul>
+        </div>
+
+        <div class="trainer-card">
+          <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=700&q=80" alt="Paul D. Newman">
+          <span class="role">Power Trainer</span>
+          <h4>Paul D. Newman</h4>
+          <p>Leads conditioning and athletic work focused on speed, endurance, and stamina.</p>
+          <ul class="socials">
+            <li><a href="#">f</a></li>
+            <li><a href="#">t</a></li>
+            <li><a href="#">in</a></li>
+            <li><a href="#">Bē</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact-sec" id="contact">
+    <div class="map-col">
+      <iframe
+        title="Location Map"
+        src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        loading="lazy">
+      </iframe>
+    </div>
+
+    <div class="form-col">
+      <div class="overlay"></div>
+      <form class="msg-form" action="#" method="post">
+        <div class="two-cols">
+          <input type="text" name="name" placeholder="Your Name*" required>
+          <input type="email" name="email" placeholder="Your Email*" required>
+        </div>
+        <input type="text" name="subject" placeholder="Subject">
+        <textarea name="message" rows="6" placeholder="Message" required></textarea>
+        <button type="submit" class="btn">SEND MESSAGE</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>Copyright &copy; 2026 Training Studio - Designed by <a href="#top">Training Studio</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
